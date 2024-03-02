@@ -1,0 +1,5 @@
+#add two number with user input in python
+x=float(input("enter number"))
+y=float(input("enter numbr"))
+sum=x+y
+print("sum=",sum)
