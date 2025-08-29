@@ -9,10 +9,9 @@ you may have to try all possible orderings of the three numbers to determine whe
 a=int(input())
 b=int(input())
 c=int(input())
-d=a*a+b*b
-e=c*c
+
 print('output')
-if d==e:
+if (a*a+b*b==c*c) or (a*a+c*c==b*b) or (c*c+b*b==a*a):
     print(1)
 else:
     print(0)
