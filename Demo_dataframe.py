@@ -18,6 +18,14 @@ df.drop("Deparment",axis=1,inplace=True)
 #print(df)'''
 print(df.shape,"\n")
 print('\n',df.describe)
+#Broodcasting
+df['Salary']=df['Salary']+300
+df["Salary"]
+#rename columns
+df.rename(columns={'Deparment':'Dept'},inplace=True)
+#create new columns
+df["PRomoted_Salary"]=df["Salary"]*1.1
+
 
 
 
